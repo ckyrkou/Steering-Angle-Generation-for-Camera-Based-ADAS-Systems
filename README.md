@@ -19,6 +19,7 @@ https://github.com/udacity/self-driving-car/tree/master/annotations
 - You can adjust the time between frames in the code.
 - The captured angles are normalized between [-1 1].
 - You can select the target directory in the python files.
+- A window with the upcoming frame is also shown.
 
 **Files**
 
