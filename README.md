@@ -15,3 +15,17 @@ https://github.com/udacity/self-driving-car/tree/master/annotations
 
 - You need a steering wheel game pad to generate the angles. 
 
+- Check if left pedal or right are captured for throttle
+- You can adjust the time between frames in the code.
+- The captured angles are normalized between []
+
+**Files**
+
+- joystick.py: Use to check if your steering wheel gamepad works correctly
+- generate_steering_angles.py: Reads the images and the steering controller and records the steering angles
+- drive.py: Used to playback what has been recorded
+
+**Output**
+
+- throttle_commands_images.txt: Throttle command for each image
+- steering_commands_images.txt: Steering command for each image
