@@ -17,7 +17,7 @@ https://github.com/udacity/self-driving-car/tree/master/annotations
 
 - Check if left pedal or right are captured for throttle
 - You can adjust the time between frames in the code.
-- The captured angles are normalized between []
+- The captured angles are normalized between [-1 1].
 - You can select the target directory in the python files.
 
 **Files**
