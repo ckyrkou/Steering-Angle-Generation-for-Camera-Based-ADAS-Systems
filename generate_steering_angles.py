@@ -90,7 +90,6 @@ for ind in range(s,len(seq)):
 
         file_angles.write(str(steering_angle[ind-s]) + "\n")
         file_throttle.write(str(throttle) + "\n")
-        file_break.write(str(breaks) + "\n")
 
         for i in range(ind + 1, min(ind + 1 + 10, len(seq))):
             fileSeq = seq[i]
@@ -107,5 +106,4 @@ for ind in range(s,len(seq)):
 print('Captured '+str(ind)+' Steering Angles')
 cv2.destroyWindow("video")
 file_throttle.close()
-file_break.close()
 file_angles.close()
